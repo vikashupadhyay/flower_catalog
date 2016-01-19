@@ -14,7 +14,7 @@ var getComments = function(req,res){
 app.use(express.static('./public'));
 
 app.get('/guestBook',function(req,res){
-	res.sendFile(path.join(__dirname+'/public/guestBook.html'));
+	res.redirect('/guestBook.html');
 })
 app.post('/comment',function(req,res){
 	var data = {};
