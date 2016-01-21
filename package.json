@@ -2,11 +2,23 @@
   "name": "flower",
   "version": "1.0.0",
   "description": "",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "OpenShift",
+    "email": "ryanj@redhat.com",
+    "url":  "http://openshift.redhat.com/"
+  },
   "main": "server.js",
+  "private": true,
   "scripts": {
-    "test": "mocha --recursive",
     "start": "node server.js"
   },
+  "homepage": "http://openshift.redhat.com/",
   "repository": {
     "type": "git",
     "url": "https://github.com/vikashupadhyay/flower_catalog.git"
