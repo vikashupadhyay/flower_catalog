@@ -1,4 +1,7 @@
 {
+  "name": "flower",
+  "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "mocha --recursive",
@@ -9,8 +12,8 @@
     "url": "https://github.com/vikashupadhyay/flower_catalog.git"
   },
   "engines": {
-    "node": ">= v0.12.7",
-    "npm": ">= 2.11.3"
+    "node": ">= 0.12.0",
+    "npm": ">= 1.2.0"
   },
   "dependencies": {
     "express": "~3.4.4",
